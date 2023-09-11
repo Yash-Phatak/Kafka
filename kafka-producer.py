@@ -51,7 +51,7 @@ def main():
         p.produce('user-tracker',m.encode('utf-8'),callback=receipt)
         p.flush() #waits for all outstanding messages to be acknowledged by broker
         time.sleep(3)
-#git commit
+
 if __name__ == '__main__':
     main()
 
